@@ -10,7 +10,7 @@ variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
   dotnetSdkVersion: '3.1.300'
-  templatePath: build/templates/build.yml
+  templatePath: /templates/build.yml
 
 steps:
 - task: UseDotNet@2
